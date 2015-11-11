@@ -26,6 +26,7 @@
 #include <fcntl.h>
 #include <unistd.h>
 #include <sys/syscall.h>
+#include <sys/types.h>
 #include <string.h>
 #include <net/if.h>
 #include <sys/ioctl.h>

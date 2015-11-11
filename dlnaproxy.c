@@ -75,6 +75,10 @@
 #include "tcptunnel.h"
 #include "log.h"
 
+#ifndef SIGCLD
+#  define SIGCLD SIGCHLD
+#endif
+
 /* Handler for the SIGTERM signal (kill) 
  * SIGINT is also handled */
 static void
